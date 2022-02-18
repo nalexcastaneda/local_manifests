@@ -5,7 +5,7 @@
                 revision="lineage-18.1" />
 
         <!-- Device repos -->
-        <project path="device/motorola/cedric" name="nalexcastaneda/android_device_motorola_cedric" remote="github" revision ="lineage-18.1" />
+        <project path="device/motorola/cedric" name="nalexcastaneda/android_device_motorola_cedric" remote="github" revision ="aosp-A11" />
         <project path="device/motorola/msm8937-common" name="nalexcastaneda/android_device_motorola_msm8937-common" revision="aosp-A11" remote="github" />
         <project path="kernel/motorola/msm8953" name="android_kernel_motorola_msm8953" remote="lineage" />
         <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
