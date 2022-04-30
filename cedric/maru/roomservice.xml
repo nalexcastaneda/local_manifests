@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="lineage"
+                fetch="https://github.com/LineageOS"
+                revision="lineage-16.0" />
+
+        <!-- Device repos -->
+        <project path="device/motorola/cedric" name="nalexcastaneda/android_device_motorola_cedric" remote="github" revision ="maru-0.7" />
+        <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="lineage-16.0" remote="github" />
+        <project path="kernel/motorola/msm8953" name="android_kernel_motorola_msm8953" remote="lineage" />
+        <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-16.0" />
+
+        <!-- Dependencies -->
+        <project path="external/bson" name="android_external_bson" remote="lineage" />
+        <project path="system/qcom" name="android_system_qcom" remote="lineage" />
+</manifest>
