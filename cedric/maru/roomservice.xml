@@ -5,7 +5,6 @@
                 revision="lineage-16.0" />
 
         <!-- Device repos -->
-        <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
         <project path="device/motorola/cedric" name="nalexcastaneda/android_device_motorola_cedric" remote="github" revision ="maru-0.7" />
         <project name="Sohamlad7/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="lineage-16.0" />
         <project name="Sohamlad7/android_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="lineage-16.0" />
